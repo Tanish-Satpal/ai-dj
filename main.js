@@ -44,7 +44,7 @@ function draw(){
     stroke("#000000");
 
     if(scoreRightWrist > 0.2){
-        circle(leftWristX,leftWristY,20);
+        circle(rightWristX,rightWristY,20);
         song3.stop();
         song3.play();
         song2.stop();
